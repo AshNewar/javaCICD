@@ -7,11 +7,11 @@ pipeline {
     }
 
     stages {
-        stage('Clone') {
-            steps {
-                git branch: 'main', url: 'https://github.com/AshNewar/javaCICD.git'
-            }
-        }
+        // stage('Clone') {
+        //     steps {
+        //         git branch: 'main', url: 'https://github.com/AshNewar/javaCICD.git'
+        //     }
+        // }
 
         stage('Build') {
             steps {
